@@ -1,5 +1,7 @@
 /* Soluzione qui */
 
+/* TABLET SCREEN WIDTH */
+
 @media screen and (min-width: 768px) {
 
     /* TOP BAR HEADER */
@@ -32,4 +34,27 @@
         flex-shrink: 0;
         width: 175px;
     }
+
+    /* BOTTONI SOCIAL NETWORKS */
+
+    .btn {
+        padding: 10px 50px;
+    }
+
+    /* ADS */
+
+    .ads {
+        display: block;
+    }
+
+    .presentation img {
+        float: left;
+        margin: 0 15px 15px;
+    }
+}
+
+/* DESKTOP SCREEN WIDTH */
+
+@media screen and (min-width: 992px) {
+    
 }
